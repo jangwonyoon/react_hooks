@@ -5,10 +5,11 @@ import UseTabs from './useTabs';
 import App from './App';
 import UseTitle from './useTitle';
 import UseClick from './useClick';
+import UseConfirm from './useConfirm';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseClick />
+    <UseConfirm />
   </React.StrictMode>,
   document.getElementById('root')
 );
