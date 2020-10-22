@@ -6,10 +6,11 @@ import App from './App';
 import UseTitle from './useTitle';
 import UseClick from './useClick';
 import UseConfirm from './useConfirm';
+import UsePreventLeave from './usePreventLeave';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseConfirm />
+    <UsePreventLeave />
   </React.StrictMode>,
   document.getElementById('root')
 );
