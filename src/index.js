@@ -4,10 +4,11 @@ import UseInput from './useInput';
 import UseTabs from './useTabs';
 import App from './App';
 import UseTitle from './useTitle';
+import UseClick from './useClick';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseTitle />
+    <UseClick />
   </React.StrictMode>,
   document.getElementById('root')
 );
