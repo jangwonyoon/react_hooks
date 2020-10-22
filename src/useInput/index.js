@@ -21,7 +21,7 @@ const useInput = (intialValue, validator) => {
   return {value, onChange};
 };
 
-const App = () => {
+const UseInput = () => {
   const maxLen = (value) => !value.includes('@');
   const name = useInput('Mr.', maxLen);
   return (
@@ -32,4 +32,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default UseInput;
