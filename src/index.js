@@ -9,10 +9,11 @@ import UseConfirm from './useConfirm';
 import UsePreventLeave from './usePreventLeave';
 import UseBeforeLeave from './useBeforeLeave';
 import UseFadeIn from './useFadeIn';
+import UseNetwork from './useNetwork';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseFadeIn />
+    <UseNetwork />
   </React.StrictMode>,
   document.getElementById('root')
 );
