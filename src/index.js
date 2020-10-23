@@ -8,10 +8,11 @@ import UseClick from './useClick';
 import UseConfirm from './useConfirm';
 import UsePreventLeave from './usePreventLeave';
 import UseBeforeLeave from './useBeforeLeave';
+import UseFadeIn from './useFadeIn';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseBeforeLeave />
+    <UseFadeIn />
   </React.StrictMode>,
   document.getElementById('root')
 );
